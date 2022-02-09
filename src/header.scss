@@ -1,0 +1,28 @@
+.container-head{
+    
+    max-height:7vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    ul{
+        margin: 0px;
+        cursor: pointer;
+        list-style: none;
+        text-decoration: none;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 50% 50%;
+        li{
+            padding: 10px;
+        }
+    }
+
+}
+.warning{
+    color: rgb(255, 0, 0);
+    font-size:4px;
+    background: lightgray;
+}
